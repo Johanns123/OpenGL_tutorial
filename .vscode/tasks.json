@@ -8,8 +8,8 @@
 			"args": [
 				"-g",
 				"-fdiagnostics-color=always",
-				"${workspaceFolder}\\src\\main.c",
-				"${workspaceFolder}\\src\\func.c",
+				"${workspaceFolder}\\src\\*.c",
+				// "${workspaceFolder}\\src\\func.c",
 				"-o",
 				"${workspaceFolder}\\build\\main.exe",
 				"-I${workspaceFolder}\\include",

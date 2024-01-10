@@ -1,5 +1,6 @@
 #include <GLFW/glfw3.h>
 #include <windows.h>
+#include "func.h"
 
 
 int main(void)
@@ -21,7 +22,7 @@ int main(void)
     /* Make the window's context current */
     glfwMakeContextCurrent(window);
 
-    glClearColor(0.0f, 0.3f, 0.0f, 1.0f);
+    glClearColor(0.0f, 0.12f, 0.9f, 1.0f);
 
     /* Loop until the user closes the window */
         // glColor3f(1.0f, 0.0f, 0.5f);
@@ -53,5 +54,7 @@ int main(void)
     }
 
     glfwTerminate();
+
+    print();
     return 0;
 }
